@@ -1,0 +1,91 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background: #4a90e2;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Navigation Styling */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4a90e2;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2c3e50;
+}
+
+/* Main Content Styling */
+main {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #4a90e2;
+}
+
+main p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
